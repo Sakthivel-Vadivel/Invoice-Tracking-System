@@ -1,0 +1,73 @@
+.good {
+  text-align: center;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  /* color: white; */
+
+  /* background-color: rgb(89, 120, 120); */
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 0 5rem;
+
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+button {
+  border: none;
+  background-color: chocolate;
+  padding: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #7439db;
+}
+button:disabled {
+  cursor: not-allowed;
+  background-color: lightslategray;
+  color: rgb(151, 156, 156);
+}
+
+.link-btn {
+  background: none;
+
+  text-decoration: underline;
+}
+.auth-form-container {
+  margin-top: 4%;
+  /* background-color: dimgray; */
+  width: 30%;
+  color: black;
+  border-radius: 2px;
+}
+.mobile .form-control {
+  min-width: 427px;
+}
+.mobile .special-label {
+  text-align: initial;
+  font-size: small;
+}
